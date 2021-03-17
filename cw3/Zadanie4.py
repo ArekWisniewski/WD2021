@@ -1,6 +1,6 @@
 # Zdefiniuj funkcję, która będzie badać monotoniczność funkcji liniowej:
 # y = a x + b
-# Funkcja jest rosnąca gdy a>0, malejąca jeżeli a<0, stała gdy a=0 i w zależności od tego będzie wyświetlać odpowiedni komunikat
+# Funkcja jest rosnąca gdy a>0, malejąca jeżeli a<0, stała gdy a=0 i w zależności od tego będzie wyświetlać odpowiedni komunikat.
 
 a=float(input('podaj a '))
 

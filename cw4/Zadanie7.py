@@ -1,13 +1,12 @@
-# Stwórz klasę Robaczek, która będzie sterować ruchami Robaczka. Klasa powinna przechowywać współrzędne x, y, krok (stała wartość kroku dla Robaczka), i powinna mieć następujące metody:
-# •	konstruktor – który nadaje wartość dla x, y i krok
-# •	idz_w_gore(ile_krokow) – metoda która przesuwa robaczka o ile_krokow*krok w odpowiednim kierunku i ustawia nowe wartości współrzędnych x i y
-# •	idz_w_dol(ile_krokow) – metoda która przesuwa robaczka o ile_krokow*krok w odpowiednim kierunku i ustawia nowe wartości współrzędnych x i y
-# •	idz_w_lewo(ile_krokow) – metoda która przesuwa robaczka o ile_krokow*krok w odpowiednim kierunku i ustawia nowe wartości współrzędnych x i y
-# •	idz_w_prawo(ile_krokow) – metoda która przesuwa robaczka o ile_krokow*krok w odpowiednim kierunku i ustawia nowe wartości współrzędnych x i y
-# •	pokaz_gdzie_jestes() – metoda, która wyświetla aktualne współrzędne Robaczka
-# Stwórz instancję klasy i sprawdź jak działają wszystkie metody
+# Stwórz klasę Robot, która będzie sterować ruchami robota. Klasa powinna przechowywać współrzędne x, y, krok (stała wartość kroku dla robota), i powinna mieć następujące metody:
+# konstruktor – który nadaje wartość dla x, y i krok
+# idz_w_gore(ile_krokow) – metoda która przesuwa robota o ile_krokow*krok w odpowiednim kierunku i ustawia nowe wartości współrzędnych x i y
+# idz_w_dol(ile_krokow) – metoda która przesuwa robota o ile_krokow*krok w odpowiednim kierunku i ustawia nowe wartości współrzędnych x i y
+# idz_w_lewo(ile_krokow) – metoda która przesuwa robota o ile_krokow*krok w odpowiednim kierunku i ustawia nowe wartości współrzędnych x i y
+# idz_w_prawo(ile_krokow) – metoda która przesuwa robota o ile_krokow*krok w odpowiednim kierunku i ustawia nowe wartości współrzędnych x i y
+# pokaz_gdzie_jestes() – metoda, która wyświetla aktualne współrzędne robota
 
-class robaczek:
+class robot:
     def __init__(self, x, y, krok):
         self.x = x
         self.y = y
@@ -23,13 +22,13 @@ class robaczek:
     def pokaz_gdzie_jestes(self):
         print('Aktualna pozycja: ('+str(self.x)+', '+str(self.y)+')')
 
-robak = robaczek(0, 0, 1)
-robak.pokaz_gdzie_jestes()
-robak.idz_w_gore(1000)
-robak.pokaz_gdzie_jestes()
-robak.idz_w_dol(523)
-robak.pokaz_gdzie_jestes()
-robak.idz_w_lewo(25)
-robak.pokaz_gdzie_jestes()
-robak.idz_w_prawo(50)
-robak.pokaz_gdzie_jestes()
+robot = robot(0, 0, 1)
+robot.pokaz_gdzie_jestes()
+robot.idz_w_gore(1000)
+robot.pokaz_gdzie_jestes()
+robot.idz_w_dol(523)
+robot.pokaz_gdzie_jestes()
+robot.idz_w_lewo(25)
+robot.pokaz_gdzie_jestes()
+robot.idz_w_prawo(50)
+robot.pokaz_gdzie_jestes()

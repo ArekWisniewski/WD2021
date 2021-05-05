@@ -1,4 +1,4 @@
-# Utwórz dwie macierze 1x3 różnych wartości a następnie wykonaj operację mnożenia.
+# Utwórz dwie macierze 1x3 różnych wartości a następnie wykonaj operację mnożenia
 
 import numpy as np
 

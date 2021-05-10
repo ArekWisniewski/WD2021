@@ -10,6 +10,8 @@
 
 import numpy as np
 import pandas as pd
+import xlrd
+import openpyxl
 
 plik=pd.ExcelFile('imiona.xlsx')
 a=pd.read_excel(plik,'Arkusz1')

@@ -8,7 +8,8 @@
 # - zapisz dane za 2004 rok do pliku zamówienia_2004.csv a dane za 2005 do pliku zamówienia_2005.csv
 
 import pandas as pd
-
+import xlrd
+import openpyxl
 
 odczyt = pd.read_csv('zamowienia.csv', header=0, delimiter=';')
 #3a

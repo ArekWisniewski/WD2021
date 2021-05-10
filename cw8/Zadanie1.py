@@ -2,6 +2,8 @@
 
 import numpy as np
 import pandas as pd
+import xlrd
+import openpyx1
 
 plik = pd.ExcelFile('imiona.xlsx')
 odczyt = pd.read_excel(plik, 'Arkusz1')
